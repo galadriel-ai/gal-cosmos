@@ -10,7 +10,7 @@ import (
 // a two-thirds quorum of all voting power participation
 // a two-thirds majority of all staked voting power voting YES.
 var (
-	MinExpeditedDeposit   = sdk.NewCoins(sdk.NewCoin("usei", types.DefaultMinExpeditedDepositTokens))
+	MinExpeditedDeposit   = sdk.NewCoins(sdk.NewCoin("ugal", types.DefaultMinExpeditedDepositTokens))
 	ExpeditedVotingPeriod = types.DefaultExpeditedPeriod
 	ExpeditedQuorum       = types.DefaultExpeditedQuorum
 	ExpeditedThreshold    = types.DefaultExpeditedThreshold
